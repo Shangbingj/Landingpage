@@ -37,7 +37,7 @@ nav ul li a:hover {
     color: #FF69B4; /* Brighter pink on hover */
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #8B4B8B; /* Dark pink for headers */
 }
 
@@ -51,12 +51,26 @@ h2 {
     margin-top: 30px;
 }
 
+h3 {
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+
 section {
     margin-bottom: 40px;
     background-color: #FFF0F5; /* Very light pink for section backgrounds */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#work ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#work li {
+    margin-bottom: 20px;
 }
 
 ul {
