@@ -5,13 +5,13 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #FFE0E9; /* Slightly more intense pink */
+    background-color: #FFE0E9;
     font-weight: 300;
 }
 
 header {
     margin-bottom: 40px;
-    background-color: #FFC0CB; /* More vibrant pink for header */
+    background-color: #FFC0CB;
     padding: 20px;
     border-radius: 8px;
 }
@@ -21,25 +21,31 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: space-around;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #D44C8C; /* Darker pink for nav links */
+    color: #D44C8C;
     font-weight: 400;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #FF1493; /* Brighter pink on hover */
+    color: #FF1493;
 }
 
 h1, h2, h3 {
-    color: #D44C8C; /* Darker pink for headers */
+    color: #D44C8C;
     font-weight: 400;
 }
 
@@ -60,7 +66,7 @@ h3 {
 
 section {
     margin-bottom: 40px;
-    background-color: #FFF0F5; /* Light pink for section backgrounds */
+    background-color: #FFF0F5;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -89,13 +95,13 @@ ul {
 }
 
 a {
-    color: #FF1493; /* Bright pink for links */
+    color: #FF1493;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #FF69B4; /* Lighter pink on hover */
+    color: #FF69B4;
     text-decoration: underline;
 }
 
@@ -103,9 +109,9 @@ footer {
     margin-top: 40px;
     text-align: center;
     font-size: 0.9em;
-    color: #D44C8C; /* Dark pink for footer text */
+    color: #D44C8C;
     padding: 20px;
-    background-color: #FFC0CB; /* More vibrant pink for footer */
+    background-color: #FFC0CB;
     border-radius: 8px;
 }
 
