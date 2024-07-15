@@ -5,13 +5,13 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #FFEEF2; /* Soft baby pink background */
+    background-color: #FFE0E9; /* Slightly more intense pink */
     font-weight: 300;
 }
 
 header {
     margin-bottom: 40px;
-    background-color: #FFD1DC; /* Slightly darker pink for header */
+    background-color: #FFC0CB; /* More vibrant pink for header */
     padding: 20px;
     border-radius: 8px;
 }
@@ -29,38 +29,38 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #8B4B8B; /* Dark pink for nav links */
+    color: #D44C8C; /* Darker pink for nav links */
     font-weight: 400;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #FF69B4; /* Brighter pink on hover */
+    color: #FF1493; /* Brighter pink on hover */
 }
 
 h1, h2, h3 {
-    color: #8B4B8B; /* Dark pink for headers */
+    color: #D44C8C; /* Darker pink for headers */
     font-weight: 400;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.8em;
     margin-bottom: 20px;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-top: 30px;
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-top: 20px;
 }
 
 section {
     margin-bottom: 40px;
-    background-color: #FFF0F5; /* Very light pink for section backgrounds */
+    background-color: #FFF0F5; /* Light pink for section backgrounds */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -75,18 +75,27 @@ section {
     margin-bottom: 20px;
 }
 
+#work li p {
+    display: inline;
+    margin-right: 10px;
+}
+
+#work li a {
+    display: inline-block;
+}
+
 ul {
     padding-left: 20px;
 }
 
 a {
-    color: #FF69B4; /* Bright pink for links */
+    color: #FF1493; /* Bright pink for links */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #FF1493; /* Deeper pink on hover */
+    color: #FF69B4; /* Lighter pink on hover */
     text-decoration: underline;
 }
 
@@ -94,9 +103,9 @@ footer {
     margin-top: 40px;
     text-align: center;
     font-size: 0.9em;
-    color: #8B4B8B; /* Dark pink for footer text */
+    color: #D44C8C; /* Dark pink for footer text */
     padding: 20px;
-    background-color: #FFD1DC; /* Slightly darker pink for footer */
+    background-color: #FFC0CB; /* More vibrant pink for footer */
     border-radius: 8px;
 }
 
